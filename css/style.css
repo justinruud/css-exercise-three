@@ -39,6 +39,10 @@ nav {
   padding-top: 13%;
 }
 
+.location:hover {
+  background-color: darkgrey;
+}
+
 .arrow-left {
   padding: 5%;
   font-size: .7em;
