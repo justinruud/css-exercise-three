@@ -5,7 +5,7 @@
 body {
   background-color: #333;
   font-family: arial, sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .container {
@@ -13,50 +13,45 @@ body {
   width: 420px;
 }
 
-
 nav {
   margin: 0 auto;
-  /* padding-bottom: 50px; */
   position: fixed;
   width: 420px;
-  height: 7%;
+  height: 8%;
   background-color: black;
 }
 
-.location{
+.location {
+  border-bottom: 1px solid darkgrey;
   width: 100%;
-  padding-top:  15%;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 5%;
   background-color: lightgrey;
   line-height: 20px;
 }
 
-
-.arrow, .location {
-  display: inline-block;
+.arrow {
   float: right;
+  padding-top: 3%;
+  font-size:  .7em;
 }
 
-/* div.content {
-  height: 20px;
-  width: 320px;
-  vertical-align: bottom;
-} */
+.restaurant-list {
+  padding-top: 13%;
+}
 
-/* .arrow {
-  float: right;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-} */
+.arrow-left {
+  padding: 5%;
+  font-size: .7em;
+}
 
+.content {
+  display: inline-block;
+}
 
 .content h1 {
   font-family: arial, sans-serif;
   font-size: 1.1em;
   font-weight: bold;
-
 }
 
 .content h3 {
